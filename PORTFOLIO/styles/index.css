@@ -39,6 +39,7 @@ canvas.particles-js-canvas-el{
 .nav_section .navbar-nav li a{
    color: var(--primary-color) !important;
    font-size: 15px;
+   
 }
 .nav_section .navbar-nav .nav-link::before
 {
@@ -118,6 +119,10 @@ canvas.particles-js-canvas-el{
     .hero_section .row h2{
         font-size: 15px;
     }
+    .hero_section .row p{
+        font-size: 15px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 993px) and (min-width: 763px){
@@ -128,6 +133,10 @@ canvas.particles-js-canvas-el{
     .hero_section .row h2{
         font-size: 15px;
         
+    }
+    .hero_section .row p{
+        font-size: 15px;
+        text-align: center;
     }
 }
 @media (max-width: 763px) and (min-width:500px){
@@ -142,6 +151,10 @@ canvas.particles-js-canvas-el{
         font-size: 18px;
         text-align: center;
         margin-bottom: 0px;;
+    }
+    .hero_section .row p{
+        font-size: 15px;
+        text-align: center;
     }
     .hero_section .row h3::after{
         width: 0px;
@@ -244,4 +257,99 @@ canvas.particles-js-canvas-el{
         font-size: 28px !important;
     }
 }
+
+/*SKILLS SECTION*/
+.skills_section{
+    padding: 100px 0px;
+    background-color: #1a1a1d;
+}
+.skills_section_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills_section #heading{
+    font-weight: 600;
+    font-size: 50px;
+}
+.skills_section hr{
+    border: 0.5px solid blueviolet;
+    width: 6rem;
+    margin: 12px 0px;
+}
+.skills_section p{
+    color: white;
+    font-size: 15px;
+}
+.skills_section .social_media_icons .list-group-item{
+    border: none;
+    color: white;
+    border-left: 2px solid blueviolet;
+    border-radius: 3px;
+    margin: 5px 0px;
+    width: 200px;
+    background: #4e4e50;
+    font-size: 14px;
+    
+}
+.skills_section .social_media_icons .list-group-item a{
+    transition: 0.4s;
+
+}
+.skills_section .social_media_icons .list-group-item:hover a{
+   margin-left: 25px;
+   color: yellow;
+   
+}
+.skills_right .each_skills{
+    margin: 20px 0px;
+}
+.skills_right .each_skills span{
+    color: white !important;
+    font-size: 14px;
+}
+.skills_right .each_skills .progress{
+    background-color: gainsboro;
+    border-radius: 100px;
+    margin-top: 3px;
+    height:10px;
+}
+.skills_right .each_skills .progress-bar{
+    background-color:blueviolet !important ;
+}
+.skills_right{
+    margin-top: 90px;
+    margin-bottom: 130px;
+    
+
+}
+
+.portfolio-section{
+    background: #0b0c10;
+    padding: 170px 0px;
+}
+.portfolio-section .nav-tabs{
+    border: none;
+    
+    
+}
+.portfolio-section .nav-tabs .nav-link.active {
+    border: none;
+    color: black;
+    border-bottom: 2px solid brown !important;
+    background: transparent;
+}
+.portfolio-section .nav-tabs .nav-link .active:hover{
+    border-bottom: 2px solid white;
+}
+.portfolio-section .nav-tabs .nav-item .show .nav-link{
+    font-weight: 400;
+    font-size: 14px;
+    background: transparent !important;
+}
+.card-columns p{
+    color: white;
+}
+
+
 
