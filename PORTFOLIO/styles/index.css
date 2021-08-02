@@ -26,6 +26,17 @@ canvas.particles-js-canvas-el{
     z-index: -1000;
     margin: 0;
 }
+canvas.particles-js-canvas-el{
+    position: absolute;
+    height: 100% !important;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1000;
+    margin: 0;
+}
+
 /*navbar*/
 
 .nav_section .navbar_brand {
@@ -59,6 +70,10 @@ canvas.particles-js-canvas-el{
     background-color: var(--secondary-color);
     position: absolute;
 
+}
+.hero_section img{
+    border-radius: 50%;
+    border-color: white;
 }
 .hero_section .row{
     display: flex;
@@ -322,6 +337,17 @@ canvas.particles-js-canvas-el{
     margin-bottom: 130px;
     
 
+}
+
+canvas.particles-js-canvas-el{
+    position: absolute;
+    height: 100% !important;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1000;
+    margin: 0;
 }
 
 .portfolio-section{
