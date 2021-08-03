@@ -16,16 +16,7 @@ body {
 h1,h2,h3,h4,h5,h6,p,span,a,td{
     cursor: pointer;
 }
-canvas.particles-js-canvas-el{
-    position: absolute;
-    height: 100% !important;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: -1000;
-    margin: 0;
-}
+
 canvas.particles-js-canvas-el{
     position: absolute;
     height: 100% !important;
@@ -202,10 +193,34 @@ canvas.particles-js-canvas-el{
     background-color: #0c0032;
     padding-top: 170px;
     padding-bottom: 170px;
+  
+}
+.about-section tr{
+    position: relative;
+}
+.about-section hr{
+    position: relative;
+}
+.about-section h2{
+    position: relative;
+}
+.about-section h3{
+    position: relative;
+}
+.about-section h4{
+    position: relative;
+}
+.about-section h5{
+    position: relative;
+}
+.about-section div{
+    position: relative;
 }
 .about-section .row p{
     color: white;
     margin-top: 20px;
+    position: relative;
+    
 }
 .about-section .about_me_2{
     text-align: right;
@@ -278,6 +293,12 @@ canvas.particles-js-canvas-el{
     padding: 100px 0px;
     background-color: #1a1a1d;
 }
+.skills_section h1{
+    position: relative;
+}
+.skills_section hr{
+    position: relative;
+}
 .skills_section_left{
     display: flex;
     flex-direction: column;
@@ -306,6 +327,9 @@ canvas.particles-js-canvas-el{
     background: #4e4e50;
     font-size: 14px;
     
+}
+.skills_section div{
+    position: relative;
 }
 .skills_section .social_media_icons .list-group-item a{
     transition: 0.4s;
@@ -349,6 +373,9 @@ canvas.particles-js-canvas-el{
     z-index: -1000;
     margin: 0;
 }
+.portfolio-section span{
+    position: relative;
+}
 
 .portfolio-section{
     background: #0b0c10;
@@ -375,6 +402,15 @@ canvas.particles-js-canvas-el{
 }
 .card-columns p{
     color: white;
+}
+.card-columns div{
+    position: relative;
+}
+.portfolio-section a{
+    position: relative;
+}
+.portfolio-section div{
+    position: relative;
 }
 
 
