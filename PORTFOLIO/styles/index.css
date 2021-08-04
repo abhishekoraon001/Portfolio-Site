@@ -29,6 +29,9 @@ canvas.particles-js-canvas-el{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /*navbar*/
 
 .nav_section .navbar_brand {
@@ -109,7 +112,7 @@ canvas.particles-js-canvas-el{
     margin-top: 10px;
 }
 .hero_section .row button:hover{
-    animation: pulse;
+    animation: swing;
     animation-duration: 0.5s;
     background-color: white;
     color: black;
@@ -153,6 +156,7 @@ canvas.particles-js-canvas-el{
     }
     .hero_section{
         margin: 55px 0px;
+        padding: 170px 0px;
     }
     .hero_section .row h3{
         font-size: 18px;
@@ -192,8 +196,7 @@ canvas.particles-js-canvas-el{
 /*about me*/
 .about-section {
     background-color: #0c0032;
-    padding-top: 170px;
-    padding-bottom: 170px;
+    padding: 170px 0px;
   
 }
 .about-section tr{
@@ -271,7 +274,7 @@ canvas.particles-js-canvas-el{
 }
 .about-section .about_me_1 button:hover{
     animation: swing;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     color: black;
     background-color: white;
     border: 3px solid white;
@@ -293,6 +296,9 @@ canvas.particles-js-canvas-el{
 .skills_section{
     padding: 100px 0px;
     background-color: #1a1a1d;
+}
+.skills_section .social_media_icons ul{
+position: relative;
 }
 .skills_section h1{
     position: relative;
@@ -428,17 +434,18 @@ canvas.particles-js-canvas-el{
 .contact-section button{
     width: 140px;
     height: 45px;
+    
     font-family: 'Roboto', sans-serif;
-    font-size: 11px;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     font-weight: 500;
     color: #000;
     background-color: #fff;
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
+    transition: all 0.1s ease 0s;
     cursor: pointer;
     outline: none;
   
@@ -453,13 +460,14 @@ canvas.particles-js-canvas-el{
 .contact-section{
     background: #8e8ada;
     
-    padding-bottom: 180px;
+    padding-bottom: 200px;
     padding-top: 130px;
     
 }
 .contact-section h3{
     font-size: 58px;
     font-weight: 600;
+    position: relative;
     
     
 }
